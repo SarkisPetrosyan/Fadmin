@@ -1,0 +1,35 @@
+.main-navigation {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.main-navigation a .main-nav-name {
+    font-family: 'ProximaNova-Regular';
+    line-height: 1;
+    
+    color: #a09fa1;
+    border-bottom: 1px solid #a09fa1;
+}
+
+.main-navigation a:nth-child(1) .main-nav-name {
+    position: relative;
+}
+
+.main-navigation a:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    background-image: url(../../assets/images/icons/arrows.png);
+    width: 13px;
+    height: 11px;
+    top: 90px;
+    left: 16%;
+}
+
+.main-navigation a:nth-child(2) .main-nav-name {
+    margin-left: 30px;
+}
+
+.main-navigation .active-page .main-nav-name {
+    color: #fff;
+   border-bottom: none;
+}

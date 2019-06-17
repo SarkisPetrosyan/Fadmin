@@ -1,0 +1,40 @@
+.pink {
+    background-color: #f96ea6 !important;
+}
+
+.purple {
+    background-color: #de48f0 !important
+}
+
+.green {
+    background-color: #40ff68 !important;
+}
+
+.orange {
+    background-color: #ff653b !important
+}
+
+.vitrinaItem-info-right img {
+    width: 25px;
+    height: 25px;
+}
+
+.vitrinaItem-info-right div {
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-left: 1px solid #595757;
+    border-bottom: 1px solid #595757
+}
+
+.vitrinaItem-info-right div:first-child {
+    border-top-right-radius: 3px;
+}
+
+.vitrinaItem-info-right div:last-child {
+    border-bottom: none;
+    border-bottom-right-radius: 3px;
+}

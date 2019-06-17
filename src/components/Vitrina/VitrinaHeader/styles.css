@@ -1,0 +1,26 @@
+.vitrina-header {
+  color: #fff;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vitrina-header .title {
+  font-size: 29px;
+  color: #fff;
+  font-family: 'ProximaNova-Bold';
+}
+
+.vitrina-header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 225px;
+  width: 100%;
+  font-family: 'ProximaNova-Regular';
+  font-size: 15px;
+}
+
+.vitrina-header-info span {
+  font-family: 'ProximaNova-Bold';
+}

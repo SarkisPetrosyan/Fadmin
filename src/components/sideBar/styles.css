@@ -1,0 +1,92 @@
+.sidebar-container {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2B30;
+}
+
+
+.active-tab {
+    background-color: #67666a;
+    color: #b6d028;
+    
+}
+
+.sidebar-item-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 44.45px 0;
+    border-bottom: 1px solid #3b3a3e;
+}
+
+.sidebar-item-icon {
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.shopping-bag-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-inactive.png');
+}
+
+.store-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-inactive.png');
+}
+
+.costs-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-inactive.png');
+}
+
+.clients-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-inactive.png');
+}
+
+.calendar-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-inactive.png');
+}
+
+.vitrinal-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-inactive.png');
+}
+
+.summary-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-inactive.png');
+}
+
+.active-tab .shopping-bag-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-active.png');
+}
+
+.active-tab .store-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-active.png');
+}
+
+.active-tab .costs-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-active.png');
+}
+
+.active-tab .clients-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-active.png');
+}
+
+.active-tab .calendar-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-active.png');
+}
+
+.active-tab .vitrinal-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-active.png');
+}
+
+.active-tab .summary-icon {
+    background-image: url('../../assets/images/icons/sidebar-icons/blank-active.png');
+}
+
+.tab-name {
+    font-family: 'ProximaNova-Regular';
+    color: #fff;
+    margin-top:10px;
+}

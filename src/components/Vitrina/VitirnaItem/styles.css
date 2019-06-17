@@ -1,0 +1,65 @@
+.vitrinaItem-info-block {
+    display: flex;
+}
+
+.vitrinaItem-root {
+    width: calc(100% / 3);
+    min-width: 380px;
+    padding: 7px;
+}
+
+.vitrinaItem-root-cnt {
+    background-color: #38373D;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+.vitrinaItem-image-block {
+    max-width: calc(100% / 2);
+    height: 160px;
+}
+
+.vitrinaItem-image-block img {
+    width: 100%;
+    height: 100%;
+}
+
+.vitrinaItem-title, .vitrinaItem-flower-price {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'ProximaNova-Bold';
+}
+
+.vitrinaItem-flower-price {
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.vitrinaItem-info-left {
+    padding: 8px 20px;
+    text-align: left;
+}
+
+.vitrinaItem-flowers-quantitiy-list {
+    margin-top: 10px;
+}
+
+.vitrinaItem-flowers-quantitiy-list li {
+    color: #fff;
+    font-size: 10px;
+    font-family: 'ProximaNova-Regular';
+    line-height: 1.3;
+}
+
+.vitrinaItem-flowers-profity-list {
+    margin-top: 15px;
+    ;
+}
+
+.vitrinaItem-flowers-profity-list li {
+    color: #c6c6c6;
+    font-size: 9px;
+    font-family: 'ProximaNova-Regular';
+    line-height: 1.3;
+}
