@@ -1,0 +1,79 @@
+.checkboxes {
+    margin-top: 22px;
+}
+
+.checkbox-btn-label {
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 170px;
+}
+
+.checkbox-btn-label p {
+    color: #fff;
+    font-family: 'ProximaNova-Regular';
+    font-size: 14px;
+    text-align: left;
+    padding-left: 28px;
+}
+
+.checkbox-btn-label+.checkbox-btn-label {
+    margin-top: 18px;
+}
+
+.checkbox-btn-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    left: 0;
+}
+
+.checkbox-btn-label .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #3b3a3f;
+    border: 1px solid #57555b;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.checkbox-btn-label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-btn-label input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkbox-btn-label label input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkbox-btn-label .checkmark:after {
+    top: 3px;
+    left: 2px;
+    width: 8px;
+    height: 4px;
+    border-bottom: 2.3px solid #bcd823;
+    border-left: 2.3px solid #bcd823;
+    border-right: none;
+    border-top: none;
+    position: absolute;
+    transform: rotate(-44deg);
+}
+
+.price-field {
+    margin: 20px 0;
+}

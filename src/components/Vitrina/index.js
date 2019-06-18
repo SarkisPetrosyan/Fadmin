@@ -12,11 +12,28 @@ import bouquet from '../../assets/images/icons/vitrinal-icons/bouquet-active.png
 import freeDelivery from '../../assets/images/icons/vitrinal-icons/free-delivery-active.png';
 import percentage from '../../assets/images/icons/vitrinal-icons/percentage-active.png';
 import VitrinaPagination from '../Vitrina/VitrinaPagination';
-import topNavigationRouts from '../../constants/mainNavigation';
-import { NavLink } from 'react-router-dom';
 
-function Vitrina({ props }) {
+import AddBouquetModal from '../addBouquetModal';
+
+function Vitrina() {
     const [tab, onTabChange] = useState(vitrinaTabs.VITRINA);
+    const [ showModal, setShowModal ] = useState(false);
+
+    const show = () => {
+        setShowModal(true);
+        console.log(showModal)
+    }
+
+    const closeModal = () => {
+        setShowModal(false)
+    }
+
+    const alertMessage = () => {
+        alert('Вы добавили букет')
+    }
+
+    const modal = showModal ? <AddBouquetModal closeModal={closeModal} alertMessage = {alertMessage} /> : null;
+
     return (
         <div className="vitrina-container">
             <div className="vitrina-content">
@@ -26,11 +43,13 @@ function Vitrina({ props }) {
                         tab={tab}
                         onTabChange={onTabChange}
                     />
-                    <div className="add-bucket-btn">
-                        <button>
-                            <i><img src={plusIcon} alt="add" /></i><span>Добавить букет</span> </button>
+                    <div className="add-bouquet-btn"> 
+                        <button onClick={show}>
+                            <i><img src={plusIcon} alt="add" /></i><span>Добавить букет</span> 
+                        </button>
                     </div>
                 </div>
+                {modal}
                 <div className="vitrina-filters-block">
                     <div className="vitrina-filters-block-left">
                         <div className="info">

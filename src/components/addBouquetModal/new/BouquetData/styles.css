@@ -1,0 +1,64 @@
+
+.form-label {
+    
+    width: 100%;
+    
+}
+.form-label input {
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #67666a;
+    font-family: 'ProximaNova-Regular';
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: left;
+
+}
+
+.form-label p {
+    font-size: 14px;
+    color: #807f83;
+    font-family: 'ProximaNova-Bold';
+    text-align: left;
+    margin-left: 5px;
+    
+    
+}
+.form-label input::placeholder {
+    color: #fff;
+    font-size: 14px;
+}
+
+.attach-photo-btn input {
+    display: none;
+}
+
+.attach-photo-btn {
+    margin-top: 25px
+}
+.attach-photo {
+    
+    border-radius: 5px;
+    background-color: #cac9ce;
+    width: 160px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c2b30;
+    font-family: 'ProximaNova-Bold'
+}
+
+.add-btn {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.add-btn button {
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'ProximaNova-Bold'
+}

@@ -17,33 +17,34 @@
     border-radius: 5px;
 }
 
-.add-bucket-btn {
+.add-bouquet-btn {
     max-width: 225px;
     width: 100%;
 }
 
-.add-bucket-btn button {
-    background-color: #EBC000;
-    width: 100%;
-    height: 48px;
-    font-size: 16px;
-    border-radius: 30px;
+.add-bouquet-btn button {
+    height: 50px;
+    box-shadow: 0px 25px 69px 23px rgba(0, 0, 0, 0.18);
     font-family: 'ProximaNova-Bold';
+    background-color: #eabe00;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 150px;
+    font-size: 15px;
 }
 
-.add-bucket-btn button i {
+.add-bouquet-btn button i {
     width: 20px;
     height: 20px;
 }
 
-.add-bucket-btn button img {
+.add-bouquet-btn button img {
     width: 20px;
 }
 
-.add-bucket-btn button span {
+.add-bouquet-btn button span {
     margin-left: 15px;
 }
 

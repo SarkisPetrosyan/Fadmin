@@ -1,0 +1,92 @@
+.add-bouquet-modal-block {
+    background-color: #2C2B30;
+    
+    border-radius: 8px;
+    max-width: 450px;
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    transform: translateX(-50%)
+   
+  
+}
+
+
+.add-bouquet-modal-block .title-block {
+    padding: 25px 0 25px 15px;
+    background-color:#39383D;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.add-bouquet-modal-block .title-block h3 {
+    color: #fff;
+    font-family: 'ProximaNova-Regular';
+    text-align: left;
+    font-size: 18px;
+}
+
+
+
+
+.footer-block  {
+    display: flex;
+    justify-content: flex-end
+}
+.footer-block  .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 275px;
+}
+
+
+.form-container {
+    padding: 15px;
+}
+
+.add-bouquet-modal-btn button, .cancle-bouquet-modal-btn button{
+    width: 130px;
+    height: 35px;
+    border-radius: 150px;
+    background-color: #39383d;
+    color: #807f83;
+    font-size: 15px;
+}
+
+.active-button button {
+    background-color: #bcd823;
+    color: #000000;
+    font-family: 'ProximaNova-Bold'
+}
+
+
+.modal-tab-navigation {
+  
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.tab-new-btn, .tab-virtual-vitrina-btn  {
+    width: 50%;
+    border-bottom: 2px solid #fff;
+}
+.tab-new-btn button, .tab-virtual-vitrina-btn button {
+    color: #fff;
+    background-color: transparent;
+   font-size: 16px;
+   padding-bottom: 6px;
+   font-family: 'ProximaNova-Bold'
+}
+
+.active-tab-button  {
+    border-bottom: 5px solid #bcd823;
+    
+}
+
+.active-tab-button button{
+    color: #bcd823;
+}

@@ -8,6 +8,7 @@ function SideBar({data, ...props}) {
         <div className="sidebar-container">
             {
                 routs.map(route => {
+                    
                     return <NavLink activeClassName="active-tab" to={route.path}>
                         <div className="sidebar-item-container">
 
